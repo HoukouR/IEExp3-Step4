@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="170.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ieexp3.id190441148.BasicTask3Controller">
+   <children>
+      <Button fx:id="buttonConnect" layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonConnectAction" prefHeight="22.0" prefWidth="94.0" text="Connect" />
+      <Button fx:id="buttonDisconnect" layoutX="138.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonDisConnectAction" prefHeight="22.0" prefWidth="81.0" text="Disconnect" />
+      <Button fx:id="buttonRun" layoutX="138.0" layoutY="48.0" mnemonicParsing="false" onAction="#handleButtonRunAction" prefHeight="77.0" prefWidth="81.0" text="Run" />
+      <Label layoutX="19.0" layoutY="50.0" text="1st Hole No.:">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="78.0" text="2nd Hole No.:">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="107.0" text="3rd Hole No.:">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="131.0" text="State:">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textHole1" layoutX="94.0" layoutY="47.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textHole2" layoutX="94.0" layoutY="74.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textHole3" layoutX="94.0" layoutY="104.0" prefHeight="25.0" prefWidth="32.0" />
+      <Label fx:id="labelState" layoutX="55.0" layoutY="131.0" prefHeight="15.0" prefWidth="164.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
